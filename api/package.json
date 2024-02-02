@@ -1,0 +1,24 @@
+{
+  "name": "cleanerapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "michael chierici",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.8.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^2.0.20"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
